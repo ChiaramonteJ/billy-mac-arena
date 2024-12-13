@@ -101,7 +101,7 @@ body {
 }
 .hero {
     position: relative;
-    background: url('/images/hero/homepage-hero.jpg') center/cover no-repeat;
+    background: url('images/hero/homepage-hero.jpg') center/cover no-repeat;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -156,7 +156,7 @@ body {
 /* ABOUT PAGE Hero Section */
 .about-hero {
     position: relative;
-    background: url('/images/hero/about-hero.jpg') center/cover no-repeat;
+    background: url('images/hero/about-hero.jpg') center/cover no-repeat;
     height: 60vh;
     display: flex;
     justify-content: center;
