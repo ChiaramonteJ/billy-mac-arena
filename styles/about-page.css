@@ -29,3 +29,20 @@
     font-size: 1.2rem;
     margin-top: 1rem;
 }
+/* Facilities Section */
+.facilities img {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Team Section */
+.team img {
+    max-width: 150px;
+    border: 3px solid #A0522D;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.team h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
