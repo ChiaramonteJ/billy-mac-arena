@@ -1,0 +1,61 @@
+/* Title Section */
+.contact-title {
+    background-color: #3B2F2F; /* Rustic dark brown */
+    color: #FDF5E6; /* Cream */
+    padding: 1rem 0;
+}
+
+.contact-title .page-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+}
+
+/* Contact Information */
+.contact-info {
+    background-color: #FDF5E6; /* Cream background */
+    color: #3B2F2F; /* Dark brown text */
+    padding: 2rem 0;
+}
+
+.contact-info h2 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
+}
+
+.contact-info a {
+    color: #A0522D; /* Earthy red */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Buttons */
+.contact-buttons .btn-primary {
+    background-color: #A0522D;
+    color: #FDF5E6;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.contact-buttons .btn-primary:hover {
+    background-color: #8B4513;
+}
+
+.contact-buttons .btn-secondary {
+    background-color: #3B2F2F;
+    color: #FDF5E6;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-buttons .btn-secondary:hover {
+    background-color: #FDF5E6;
+    color: #3B2F2F;
+}

@@ -1,0 +1,47 @@
+/* Title Section */
+.services-title {
+    background-color: #3B2F2F; /* Rustic dark brown */
+    color: #FDF5E6; /* Cream */
+    padding: 1rem 0;
+}
+
+.services-title .page-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+}
+
+/* Service Boxes */
+.service-box {
+    border: 2px solid #A0522D; /* Earthy red */
+    background-color: #FDF5E6; /* Cream */
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.service-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.service-box h3 {
+    font-family: 'Playfair Display', serif;
+    color: #3B2F2F;
+    margin-bottom: 1rem;
+}
+
+.service-box p {
+    color: #3B2F2F;
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+}
+
+.service-box .btn-primary {
+    background-color: #A0522D;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.service-box .btn-primary:hover {
+    background-color: #8B4513;
+}

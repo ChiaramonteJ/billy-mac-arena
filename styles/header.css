@@ -1,0 +1,49 @@
+/* Add padding to the top of the body to account for the fixed header */
+body {
+    padding-top: 70px; /* Adjust this value based on the height of your header */
+}
+
+.site-header .navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for better visibility */
+}
+.site-header .navbar {
+    background-color: #3B2F2F; /* Rustic dark brown */
+    border-bottom: 3px solid #A0522D; /* Accent color */
+}
+
+.site-header .navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    color: #FDF5E6;
+}
+
+.site-header .navbar-brand .logo {
+    max-height: 40px;
+    margin-right: 10px;
+}
+
+.site-header .nav-link {
+    color: #FDF5E6;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.site-header .nav-link:hover {
+    color: #D2B48C; /* Mustard Yellow hover */
+}
+
+.site-header .dropdown-menu {
+    background-color: #5C4033; /* Deep brown */
+    border: none;
+}
+
+.site-header .dropdown-item {
+    color: #FDF5E6;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.site-header .dropdown-item:hover {
+    background-color: #A0522D; /* Earthy Red */
+    color: #FFFFFF;
+}

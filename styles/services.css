@@ -1,0 +1,72 @@
+/* Service Card Styles */
+/* Services Section */
+.services {
+    background-color: #FDF5E6; /* Cream background */
+    color: #3B2F2F; /* Dark brown text */
+}
+
+.services h2 {
+    font-family: 'Playfair Display', serif;
+    color: #3B2F2F; /* Dark brown */
+    margin-bottom: 2rem;
+}
+
+.service-icon {
+    width: 50px; /* Adjust as needed */
+    height: 50px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+a.service-card {
+    border: 2px solid #A0522D; /* Earthy red border */
+    background-color: #FDF5E6; /* Cream background */
+    border-radius: 8px;
+    padding: 1rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+a.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+a.service-card h3 {
+    color: #3B2F2F; /* Dark brown text */
+}
+
+a.service-card p {
+    font-size: 0.9rem;
+    margin: 0;
+}
+/* Service Details */
+.service-details .btn-primary {
+    background-color: #A0522D; /* Earthy red */
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.service-details .btn-primary:hover {
+    background-color: #8B4513;
+}
+
+.service-details .btn-secondary {
+    background-color: #3B2F2F;
+    color: #FDF5E6;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.service-details .btn-secondary:hover {
+    background-color: #FDF5E6;
+    color: #3B2F2F;
+}
+
+.service-details h2, .service-details h3 {
+    color: #3B2F2F;
+    margin-top: 1.5rem;
+}

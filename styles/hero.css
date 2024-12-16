@@ -1,0 +1,40 @@
+.hero {
+    position: relative;
+    background: url('../images/hero/homepage-hero.jpg') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FDF5E6;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Black overlay with 50% transparency */
+    z-index: -1; /* Places it behind the hero content */
+}
+
+.hero-content {
+    position: relative; /* Ensures the content stays above the overlay */
+    z-index: 2;
+}
+
+.hero-content .btn-rustic {
+    background-color: #A0522D;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.hero-content .btn-rustic:hover {
+    background-color: #8B4513;
+}
